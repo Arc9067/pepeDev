@@ -4,11 +4,15 @@ import Hero from "./Components/Hero";
 import Footer from "./Components/Footer";
 import Loading from "./Components/Loading";
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 
 const App = () => {
   useEffect(() => {
     Aos.init();
+
+    document.querySelectorAll("img").forEach((image) => {
+      image.setAttribute("loading", "lazy");
+    });
   }, []);
   return (
     <div className="min-h-screen w-full relative bg-lime-900 text-white">
