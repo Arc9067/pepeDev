@@ -19,7 +19,7 @@ const Header = () => {
           data-aos="fade-down"
           data-aos-duration="1200"
         >
-          <a href="" className="etherscan">
+          <a href="https://twitter.com/PEPEDEV_ETH" className="etherscan">
             <svg
               width="40"
               height="48"
@@ -33,7 +33,7 @@ const Header = () => {
               />
             </svg>
           </a>{" "}
-          <a href="" className="telegram">
+          <a href="https://t.me/devpepeerc20" className="telegram">
             <svg
               width="38"
               height="38"
