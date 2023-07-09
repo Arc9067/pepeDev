@@ -1,5 +1,6 @@
 import React from "react";
 import HeroLogo from "../assets/heroLogo.png";
+import HeroLogo2 from "../assets/heroLogo2.png";
 
 const Hero = () => {
   return (
@@ -15,13 +16,22 @@ const Hero = () => {
           </span>
           <br /> who make the Pepe Great
         </h1>
-        <img
-          src={HeroLogo}
-          alt=""
-          className="md:w-[25rem]"
-          data-aos="flip-left"
-          data-aos-duration="900"
-        />
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-12">
+          <img
+            src={HeroLogo}
+            alt=""
+            className="md:w-[25rem]"
+            data-aos="flip-left"
+            data-aos-duration="900"
+          />
+          <img
+            src={HeroLogo2}
+            alt=""
+            className="md:w-[25rem]"
+            data-aos="flip-left"
+            data-aos-duration="900"
+          />
+        </div>
       </div>
     </section>
   );
